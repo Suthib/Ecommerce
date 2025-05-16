@@ -29,8 +29,10 @@ SECRET_KEY = 'django-insecure-d=um-71$we08bx6@px4cup08ph5mi7kam7@ld1#$8)+!@3y0*)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ['ecommerce-production-7b85.up.railway.app',
+                 'https://ecommerce-production-7b85.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['ecommerce-production-7b85.up.railway.app',
+                        'https://ecommerce-production-7b85.up.railway.app']
 
 
 # Application definition
